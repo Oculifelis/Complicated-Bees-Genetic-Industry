@@ -1,6 +1,6 @@
 param(
     [ValidateSet('all','26.1.2','26.2')][string]$Target = 'all',
-    # Optional: path to a clone of eriritarded/complicated_bees (branch port/26.x). When given, that
+    # Optional: path to a clone of Oculifelis/complicated_bees (branch port/26.x). When given, that
     # project is built for each target first and its jar is copied into libs/<minecraft>/.
     [string]$CbRepo,
     [switch]$Validate

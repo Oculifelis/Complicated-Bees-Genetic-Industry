@@ -20,7 +20,7 @@ if (cbJar == null) {
     def found = (file("libs/${mcTarget}").listFiles() ?: []).findAll { it.name ==~ /complicated_bees-neoforge-.*\.jar/ }
     if (found.size() != 1) {
         throw new GradleException("Expected exactly one Complicated Bees port jar in libs/${mcTarget}/ (found ${found.size()}). " +
-            "Build https://github.com/eriritarded/complicated_bees (branch port/26.x) for ${mcTarget} and copy " +
+            "Build https://github.com/Oculifelis/complicated_bees (branch port/26.x) for ${mcTarget} and copy " +
             "build/${mcTarget}/libs/complicated_bees-neoforge-*.jar there, or pass -PcbJar=<path>.")
     }
     cbJar = found[0]

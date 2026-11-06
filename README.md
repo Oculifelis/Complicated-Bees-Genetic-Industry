@@ -9,7 +9,7 @@ The branch starts at upstream `master` revision `68fceb01e926f18de1a76591b8691bd
 | 26.1.2 | 26.1.2.122 | 25 | 29.47.0.111 | 26.1.12+neoforge |
 | 26.2 | 26.2.0.93 | 25 | 30.42.0.237 | 26.2.10+neoforge |
 
-Genetic Industry requires Complicated Bees. Use it with the Complicated Bees 26.x port for the same Minecraft version: [eriritarded/complicated_bees](https://github.com/eriritarded/complicated_bees), branch `port/26.x`. JEI and Jade are optional and are not bundled.
+Genetic Industry requires Complicated Bees. Use it with the Complicated Bees 26.x port for the same Minecraft version: [Oculifelis/complicated_bees](https://github.com/Oculifelis/complicated_bees), branch `port/26.x`. JEI and Jade are optional and are not bundled.
 
 ## Complicated Bees dependency
 
@@ -20,7 +20,7 @@ Get the jar one of these ways:
 1. Let the build script build it. Clone the Complicated Bees fork next to this one and pass its path:
 
    ```powershell
-   git clone -b port/26.x https://github.com/eriritarded/complicated_bees ..\complicated_bees
+   git clone -b port/26.x https://github.com/Oculifelis/complicated_bees ..\complicated_bees
    .\build-port.ps1 -CbRepo ..\complicated_bees
    ```
 

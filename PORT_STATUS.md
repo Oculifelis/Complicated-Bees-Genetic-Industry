@@ -1,6 +1,6 @@
 # Port coverage and validation
 
-> Split note (2026-10-25): this file was split out of the combined Complicated Bees + Genetic Industry port. Rows and sections that concern only the base mod are in the [Complicated Bees fork](https://github.com/eriritarded/complicated_bees/blob/port/26.x/PORT_STATUS.md). The validation harness in `src/validation` covers both mods together. Release archives under `dist/` mentioned below were build outputs of the combined repository and are not committed here; they are reproduced by building this branch.
+> Split note (2026-10-25): this file was split out of the combined Complicated Bees + Genetic Industry port. Rows and sections that concern only the base mod are in the [Complicated Bees fork](https://github.com/Oculifelis/complicated_bees/blob/port/26.x/PORT_STATUS.md). The validation harness in `src/validation` covers both mods together. Release archives under `dist/` mentioned below were build outputs of the combined repository and are not committed here; they are reproduced by building this branch.
 
 ## Recipe-sync hotfix, 2026-10-18
 
