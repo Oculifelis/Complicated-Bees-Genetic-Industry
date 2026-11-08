@@ -5,6 +5,8 @@ license="GPL-3.0-only"
 modId="genindustry_bees"
 version="${mod_version}"
 displayName="Complicated Bees: Genetic Industry"
+logoFile="genindustry_logo.png"
+logoBlur=false
 authors="TheSmartNoob880"
 description='''Gene extraction, templates and imprinting for Complicated Bees. Unofficial 26.x port.'''
 [[dependencies.genindustry_bees]]
