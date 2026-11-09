@@ -29,7 +29,7 @@ if (!cbJar.isFile()) throw new GradleException("Complicated Bees jar not found: 
 logger.lifecycle("Genetic Industry ${mcTarget}: compiling against ${cbJar.name}")
 
 group = 'com.thesmartnoob880.genindustry_bees'
-version = "1.0.0+${mcTarget}-port.2"
+version = "1.0.0+${mcTarget}-port.3"
 base.archivesName = 'genindustry_bees-neoforge'
 layout.buildDirectory = file("build/${mcTarget}")
 java.toolchain.languageVersion = JavaLanguageVersion.of(25)
